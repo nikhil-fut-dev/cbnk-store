@@ -1,4 +1,3 @@
-/* ================= MOBILE RESPONSIVE ================= */
 @media (max-width: 768px) {
   .CbnBox-rootBlack {
     display: none;
@@ -79,7 +78,6 @@
     height: 50px;
   }
 
-  /* Offer bar */
   .Cbn-offer-bar {
     margin-top: 10px;
   }
@@ -90,7 +88,6 @@
     padding: 5px;
   }
 
-  /* Slider */
   .Cbn-slider {
     height: 250px;
     margin: 10px;
@@ -109,18 +106,15 @@
     padding: 6px 8px;
   }
 
-  /* Arrows smaller */
   .arrow {
     width: 30px;
     height: 30px;
   }
 
-  /* Popup */
   .Cbn-popup {
     width: 95%;
   }
 
-  /* Floating button */
   .Cbn-floating-btn {
     font-size: 30px;
     right: 20px;
@@ -128,7 +122,6 @@
   }
 }
 
-/* ================= EXTRA SMALL DEVICES ================= */
 @media (max-width: 480px) {
   .Cbn-content h1 {
     font-size: 18px;
