@@ -40,6 +40,10 @@
     padding: 10px;
   }
 
+  .Cbn-space {
+  width: 23%;
+}
+
   .nav-right {
     display: none;
     order: 2;

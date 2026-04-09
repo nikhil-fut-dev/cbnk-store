@@ -63,11 +63,12 @@
   display: flex;
   background-color: #ecedeb;
   padding: 12px;
+  margin-left: 20px;
   width: 40%;
   align-items: center;
 }
 
-.space {
+.Cbn-space {
   width: 15%;
 }
 
