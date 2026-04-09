@@ -239,11 +239,12 @@
 }
 
 .Cbn-badge {
-  background: #d1ac88;
+  background: #f7f8f7;
   padding: 10px 12px;
   font-size: 18px;
   font-weight: bold;
   display: inline-block;
+  color: #2b3f4e;
 }
 
 .Cbn-price {
@@ -267,7 +268,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: #fff;
+  background: #d1ac88;
   width: 40px;
   height: 40px;
   border-radius: 50px;
