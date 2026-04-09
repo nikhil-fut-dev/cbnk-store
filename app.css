@@ -141,9 +141,9 @@
     background: #fff;
     display: flex;
     justify-content: space-around;
-    border: 2px solid #d1ac88;
+    border: 3px solid #d1ac88;
     border-radius: 50px;
-    padding: 5px 0px;
+    padding: 4px 0px;
     left: 45px;
     height: 40px;
   }
