@@ -79,6 +79,10 @@
   }
 
   /* Offer bar */
+  .Cbn-offer-bar {
+    margin-top: 10px;
+  }
+
   .Cbn-offer-container {
     width: 100%;
     font-size: 12px;
