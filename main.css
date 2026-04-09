@@ -107,10 +107,6 @@
   cursor: pointer;
 }
 
-.icon:hover {
-  border-bottom: 5px solid #d1ac88;
-}
-
 .icon i {
   display: block;
   font-size: 18px;
