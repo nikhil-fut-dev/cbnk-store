@@ -27,8 +27,8 @@
   }
 
   .logo {
-  padding-left: 0px;
-}
+    padding-left: 0px;
+  }
 
   .logo img {
     max-width: 80px;
@@ -42,8 +42,8 @@
   }
 
   .Cbn-space {
-  width: 23%;
-}
+    width: 23%;
+  }
 
   .nav-right {
     display: none;
@@ -146,3 +146,4 @@
     height: 200px;
   }
 }
+
