@@ -306,3 +306,7 @@
 .active {
   background: #d1ac88;
 }
+
+.Cbn-bottom-nav {
+  display: none;
+}
