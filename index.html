@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="app.css">
     <link rel="stylesheet" href="whatsapp-popup.css">
+    <link rel="stylesheet" href="Cbn-menu.css">
+    <link rel="stylesheet" href="Cbn-profile.css">
+
+    <script src="Cbn-menu-&-profile.js"></script>
 </head>
 
 <body>
@@ -102,7 +106,7 @@
         </div>
 
         <div class="Cbn-bottom-nav">
-            <div class="Cbn-bottom-item">
+            <div class="Cbn-bottom-item menu-toggle" onclick="toggleMenu()">
                 <i class="fa fa-bars menu-icon"></i>
                 <span>Menu</span>
             </div>
@@ -117,12 +121,25 @@
                 <span>Categories</span>
             </div> -->
 
-            <div class="Cbn-bottom-item">
+            <div class="Cbn-bottom-item cart-icon" onclick="toggleCart()">
                 <i class="fa fa-user"></i>
                 <span>Profile</span>
             </div>
         </div>
     </header>
+
+    <div class="Cbn-menu" id="Cbn-menu">
+        <a href="#" onclick="closeAll()"></a>
+        <a href="#" onclick="closeAll()"></a>
+        <a href="#" onclick="closeAll()"></a>
+        <a href="#" onclick="closeAll()"></a>
+    </div>
+
+    <div class="Cbn-profile" id="CbnProfile">
+        <h2>Your Cart</h2>
+        <div id="Cbn-Item"></div>
+        <h3>Total: ₹<span id="total">0</span></h3>
+    </div>
 
     <div class="Cbn-slider">
         <div class="Cbn-slides" id="Cbn-slides">
@@ -183,7 +200,6 @@
     </div>
 
     <button class="Cbn-floating-btn" onclick="openPopup()"><i class="fa-brands fa-whatsapp"></i></button>
-
 
     <script src="footer.js"></script>
     <script src="Cbn-slider.js"></script>

@@ -1,0 +1,29 @@
+.Cbn-menu{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 280px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.4)
+  );
+  backdrop-filter: blur(20px);
+  transform: translateX(-100%);
+  transition: 0.4s;
+  padding-top: 80px;
+  z-index: 1001;
+}
+
+.Cbn-menu.active {
+  transform: translateX(0);
+}
+
+.Cbn-menu a {
+  display: block;
+  padding: 18px 25px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
