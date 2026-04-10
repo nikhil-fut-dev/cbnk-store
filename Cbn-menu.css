@@ -1,4 +1,4 @@
-.Cbn-menu{
+.Cbn-menu {
   position: fixed;
   top: 0;
   left: 0;
@@ -21,8 +21,8 @@
 }
 
 .Cbn-menu a {
-  display: block;
-  padding: 18px 25px;
+  background: #d1ac88;
+  padding: 10px;
   color: #333;
   text-decoration: none;
   font-weight: bold;
