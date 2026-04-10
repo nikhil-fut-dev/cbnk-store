@@ -151,6 +151,7 @@
   .Cbn-bottom-item {
     text-align: center;
     font-size: 10px;
+    cursor: pointer;
   }
 
   .Cbn-bottom-item i {
