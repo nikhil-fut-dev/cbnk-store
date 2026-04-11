@@ -264,7 +264,7 @@
   display: flex;
   gap: 16px;
   overflow-x: auto;
-  scroll-behavior: smooth;
+  
 }
 
 .card-row::-webkit-scrollbar {
@@ -272,7 +272,7 @@
 }
 
 .card {
-  min-width: 220px;
+  width: 237.8px;
   height: 300px;
   border-radius: 16px;
   overflow: hidden;
