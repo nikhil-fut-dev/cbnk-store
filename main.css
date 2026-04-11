@@ -264,7 +264,7 @@
   display: flex;
   gap: 16px;
   overflow-x: auto;
-  
+  scroll-behavior: smooth;
 }
 
 .card-row::-webkit-scrollbar {

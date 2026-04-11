@@ -73,6 +73,10 @@
     padding: 25px;
   }
 
+  .CbnBox-root-bottom::-webkit-scrollbar {
+    display: none;
+  }
+
   .Cbn-items {
     min-width: 80px;
     flex: 0 0 auto;
