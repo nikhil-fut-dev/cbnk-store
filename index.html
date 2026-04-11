@@ -16,6 +16,8 @@
 </head>
 
 <body>
+    <div class="overlay" id="overlay" onclick="closeAll()"></div>
+
     <header>
         <div class="CbnBox-rootBlack">
             <div class="top-bar">
@@ -184,6 +186,7 @@
     </div>
 
     <div class="Cbn-profile" id="CbnProfile">
+        <span class="close-btn" onclick="closeAll()"><i class="fa-solid fa-xmark"></i></span>
         <h2>Your Cart</h2>
         <div id="Cbn-Item"></div>
         <h3>Total: ₹<span id="total">0</span></h3>
