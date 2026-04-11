@@ -219,6 +219,30 @@
     z-index: 2;
   }
 
+  .banner {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    padding: 40px;
+  }
+
+  .banner-left {
+    max-width: 100%;
+    margin-left: 0px;
+  }
+
+  .benefit {
+    color: #000;
+    padding: 18px 16px;
+    margin-bottom: 12px;
+    margin-left: 0px;
+  }
+
+  .benefit h3 {
+    padding-left: 0px;
+    font-size: 16px;
+  }
+
   .Cbn-popup {
     width: 95%;
   }
