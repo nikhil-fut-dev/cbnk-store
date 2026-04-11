@@ -463,17 +463,18 @@
   width: 220px;
 }
 
-.card .elite {
-  font-size: 18px;
+.Cbn-banner-card .elite {
+  font-size: 42px;
+  font-weight: bold;
   margin: 0;
 }
 
-.card h2 {
-  font-size: 42px;
+.Cbn-banner-card h2 {
+  font-size: 28px;
   margin: 5px 0;
 }
 
-.card .sub {
+.Cbn-banner-card .sub {
   font-size: 11px;
   color: #bbb;
 }
