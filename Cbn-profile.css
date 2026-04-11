@@ -16,6 +16,17 @@
   right: 0;
 }
 
+.Cbn-profile-close {
+  display: inline-flex;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 1px 3px 0px 3px;
+  margin-bottom: 10px;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #dfdfdf;
+}
+
 .Cbn-item {
   display: flex;
   justify-content: space-between;
