@@ -188,10 +188,10 @@
 
   .card span {
     position: absolute;
-    bottom: 15px;
+    bottom: 10px;
     left: 15px;
     color: #fff;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
     z-index: 2;
   }
