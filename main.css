@@ -231,7 +231,7 @@
 .Cbn-content {
   position: absolute;
   top: 50%;
-  left: 60px;
+  left: 45px;
   transform: translateY(-50%);
   color: #fff;
   z-index: 2;
