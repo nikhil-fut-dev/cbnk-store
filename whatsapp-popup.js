@@ -2,10 +2,11 @@ function submitForm(e) {
   e.preventDefault();
   const name = document.getElementById("name").value;
   const phone = document.getElementById("phone").value;
+  const address = document.getElementById("address").value;
   const email = document.getElementById("email").value;
   const message = document.getElementById("message").value;
 
-  const text = `Hello, I want to visit your CBNK - Store.%0AName: ${name}%0APhone: ${phone}%0AEmail: ${email}%0AMessage: ${message}`;
+  const text = `Hello, I want to visit your CBNK - Store.%0AName: ${name}%0APhone: ${phone}%0AEmail: ${email}%0AAddress: ${address}%0AMessage: ${message}`;
 
   const whatsappNumber = "919839507418"; // replace with your number
 
