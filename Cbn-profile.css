@@ -10,6 +10,7 @@
   transition: 0.4s;
   z-index: 1002;
   overflow-y: auto;
+  border-radius: 0px;
 }
 
 .Cbn-profile.active {

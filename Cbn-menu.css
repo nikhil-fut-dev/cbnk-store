@@ -14,6 +14,7 @@
   transition: 0.4s;
   padding-top: 80px;
   z-index: 1001;
+  border-radius: 0px;
 }
 
 .Cbn-menu.active {
