@@ -2,18 +2,18 @@ let cart = [];
 
 function toggleMenu() {
   document.getElementById("Cbn-menu").classList.toggle("active");
-  document.getElementById("overlay").classList.toggle("active");
+  document.getElementById("Cbn-bottom-overlay").classList.toggle("active");
 }
 
 function toggleCart() {
   document.getElementById("CbnProfile").classList.toggle("active");
-  document.getElementById("overlay").classList.toggle("active");
+  document.getElementById("Cbn-bottom-overlay").classList.toggle("active");
 }
 
 function closeAll() {
   document.getElementById("Cbn-menu").classList.remove("active");
   document.getElementById("CbnProfile").classList.remove("active");
-  document.getElementById("overlay").classList.remove("active");
+  document.getElementById("Cbn-bottom-overlay").classList.remove("active");
 }
 
 function addToCart(name, price) {
