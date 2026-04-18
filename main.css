@@ -597,7 +597,7 @@
   position: absolute;
   bottom: -6px;
   left: 0;
-  border-radius: 10px;
+  border-radius: 1px;
 }
 
 .Cbn-2ndbanner {
@@ -643,18 +643,4 @@
 .Cbn-2ndbanner-content span {
   font-size: 18px;
   opacity: 0.9;
-}
-
-@media (max-width: 768px) {
-  .Cbn-2ndbanner img {
-    height: 260px;
-  }
-
-  .Cbn-2ndbanner-content {
-    left: 20px;
-  }
-
-  .Cbn-2ndbanner-content h1 {
-    font-size: 22px;
-  }
 }
