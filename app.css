@@ -301,6 +301,18 @@
     opacity: 1;
     visibility: visible;
   }
+
+.Cbn-2ndbanner img {
+    height: 260px;
+  }
+
+  .Cbn-2ndbanner-content {
+    left: 20px;
+  }
+
+  .Cbn-2ndbanner-content h1 {
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -320,17 +332,5 @@
 
   .Cbn-slider {
     height: 200px;
-  }
-
-.Cbn-2ndbanner img {
-    height: 260px;
-  }
-
-  .Cbn-2ndbanner-content {
-    left: 20px;
-  }
-
-  .Cbn-2ndbanner-content h1 {
-    font-size: 22px;
   }
 }
