@@ -302,12 +302,30 @@
     visibility: visible;
   }
 
+  .Cbn-kids-section-title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .Cbn-kids-section-title::after {
+    width: 40px;
+    height: 3px;
+  }
+
+  .Cbn-kids-card {
+    width: 152.3px;
+    height: 200px;
+  }
+
+  .Cbn-kids-card span {
+    bottom: 10px;
+    font-size: 14px;
+  }
+
   .Cbn-2ndbanner-title {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 15px;
-  position: relative;
-}
+    font-size: 18px;
+    font-weight: 600;
+  }
 
   .Cbn-2ndbanner-title::after {
     width: 40px;
@@ -344,5 +362,54 @@
 
   .Cbn-slider {
     height: 200px;
+  }
+
+  .Cbn-kids-section-title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .Cbn-kids-section-title::after {
+    width: 40px;
+    height: 3px;
+  }
+
+  .Cbn-kids-card {
+    width: 150px;
+    height: 200px;
+  }
+
+  .Cbn-kids-card span {
+    bottom: 10px;
+    font-size: 14px;
+  }
+
+  .Cbn-2ndbanner-title {
+    font-size: 18px;
+  }
+
+  .Cbn-2ndbanner-title::after {
+    width: 40px;
+    height: 3px;
+  }
+
+  .Cbn-2ndbanner img {
+    height: 220px;
+  }
+
+  .Cbn-2ndbanner-content {
+    left: 10px;
+  }
+
+  .Cbn-2ndbanner-content h1 {
+    font-size: 18px;
+  }
+
+  .Cbn-2ndbanner-content p {
+    font-size: 12px;
+  }
+
+  .Cbn-2ndbanner-content span {
+    font-size: 16px;
   }
 }
