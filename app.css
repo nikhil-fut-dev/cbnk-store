@@ -302,7 +302,19 @@
     visibility: visible;
   }
 
-.Cbn-2ndbanner img {
+  .Cbn-2ndbanner-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+  .Cbn-2ndbanner-title::after {
+    width: 40px;
+    height: 3px;
+  }
+
+  .Cbn-2ndbanner img {
     height: 260px;
   }
 
