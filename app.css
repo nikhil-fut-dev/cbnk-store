@@ -455,4 +455,24 @@
   .Cbn-2ndbanner-content span {
     font-size: 16px;
   }
+
+  .Cbn-3rdbanner-content {
+    left: 10px;
+  }
+
+  .Cbn-3rdbanner-content p {
+    font-size: 20px;
+    margin: 0 0 0px;
+    letter-spacing: 0.5px;
+  }
+
+  .Cbn-3rdbanner-content h1 {
+    font-size: 20px;
+    margin: 0 0 10px;
+    letter-spacing: 0.5px;
+  }
+
+  .Cbn-3rdbanner-content span {
+    font-size: 14px;
+  }
 }
