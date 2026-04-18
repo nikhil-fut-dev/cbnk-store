@@ -405,11 +405,11 @@
   position: absolute;
   inset: 0;
   background: repeating-linear-gradient(
-    135deg,
+    45deg,
     rgba(255, 255, 255, 0.05),
     rgba(255, 255, 255, 0.05) 2px,
-    transparent 2px,
-    transparent 12px
+    transparent 10px,
+    transparent 20px
   );
   opacity: 0.2;
 }
@@ -607,7 +607,7 @@
 
 .Cbn-2ndbanner img {
   width: 100%;
-  height: 400px;
+  height: 500px;
   object-fit: cover;
   display: block;
 }
@@ -624,22 +624,24 @@
   top: 50%;
   transform: translateY(-50%);
   color: white;
-  max-width: 400px;
+  max-width: 450px;
 }
 
 .Cbn-2ndbanner-content p {
-  font-size: 16px;
-  margin: 0 0 10px;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0 0 20px;
   opacity: 0.9;
 }
 
 .Cbn-2ndbanner-content h1 {
-  font-size: 36px;
-  margin: 0 0 10px;
-  font-weight: 700;
+  font-size: 42px;
+  margin: 0 0 20px;
+  font-weight: bold;
 }
 
 .Cbn-2ndbanner-content span {
-  font-size: 18px;
+  font-size: 24px;
+  font-weight: 600;
   opacity: 0.9;
 }
