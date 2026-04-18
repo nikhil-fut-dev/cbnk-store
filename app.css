@@ -321,4 +321,16 @@
   .Cbn-slider {
     height: 200px;
   }
+
+.Cbn-2ndbanner img {
+    height: 260px;
+  }
+
+  .Cbn-2ndbanner-content {
+    left: 20px;
+  }
+
+  .Cbn-2ndbanner-content h1 {
+    font-size: 22px;
+  }
 }
