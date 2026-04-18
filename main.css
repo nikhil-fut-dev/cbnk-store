@@ -645,3 +645,33 @@
   font-weight: 600;
   opacity: 0.9;
 }
+
+.Cbn-3rdbanner-content {
+  position: absolute;
+  left: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  max-width: 500px;
+}
+
+.Cbn-3rdbanner-content p {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0 0 0px;
+  opacity: 0.9;
+  letter-spacing: 1px;
+}
+
+.Cbn-3rdbanner-content h1 {
+  font-size: 48px;
+  margin: 0 0 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.Cbn-3rdbanner-content span {
+  font-size: 28px;
+  font-weight: 600;
+  opacity: 0.9;
+}
