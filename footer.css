@@ -8,6 +8,7 @@
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
   gap: 135px;
+  overflow: hidden;
 }
 
 .Cbn-footer-col h3 {
@@ -73,14 +74,14 @@
 }
 
 .Cbn-footer-links-icons {
-    display: flex;
-    gap: 20px;
-  }
+  display: flex;
+  gap: 20px;
+}
 
-  .Cbn-footer-links-icons a {
-    font-size: 30px;
-    color: #000;
-  }
+.Cbn-footer-links-icons a {
+  font-size: 30px;
+  color: #000;
+}
 
 .Cbn-footer-links a:hover {
   text-decoration: underline;
