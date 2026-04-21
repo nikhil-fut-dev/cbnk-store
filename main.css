@@ -6,6 +6,10 @@
   text-decoration: none;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .CbnBox-rootBlack {
   background-color: #000000;
   padding: 14px;
